@@ -23,15 +23,9 @@ cambiarM lista = map (foldl(\acum c ->if isUpper c then acum++[toLower c]else ac
 vocal =['a','e','i','o','u','A','E','I','O','U'] 
 
 
---secuencia una cib map y recur
---secuencia lista por compresion y fold
---secuencia [1,2,3,5] [[],[1],[1,2],[1,2,3][1,2,3,5]]
 
-listar :: [Int]->[[Int]]
-listar []=[[]]
-listar lista = foldl(\acum l ->acum:[(listarAux lista 0)])[[]]lista
 
-listarAux :: [Int]->Int->[Int]
-listarAux []_ = []
-listarAux lista pos = take (pos+1) [x |x<-lista]
+
+
+
 
