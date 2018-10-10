@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+environment/workspace/PATH/delimiter=;
+environment/workspace/PATH/operation=append
+environment/workspace/PATH/value=${eclipse_home}\\..\\MinGW\\bin;${eclipse_home}\\..\\MinGW\\msys\\1.0\\bin
+environment/workspace/append=true
+environment/workspace/appendContributed=false
